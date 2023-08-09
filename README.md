@@ -1,22 +1,19 @@
-# The-Outforce
-
 *.box archive extractor  V2.0 Console app.
-======================================
-*.box archive extractor.
+=
 Designed for the game "The Outforce"
-======================================
+
 Changelog history:
-{V1.0}
+V1.0: 
 +Support for some *.box file
----------------------------------------------------------
-{V2.0}
+
+V2.0
 +Full support for the *.box archive
 You can extract every *.box archive files.
 +Bugfixes
----------------------------------------------------------
-======================================
+
 USAGE:
-======================================
+=
+
 Put the desired *.box archive  file to the program's
 root folder and then start the program...
 enter the name of the *.box file, first the 
@@ -26,25 +23,24 @@ All after that, type "extract" command to
 extract the content of the *.box file.
 No need to create folders and subfolders,
 my program will do all of that for you.
-======================================
+
 KNOWING ISSUES
-======================================
+
 Have an issue? Do not hesitate, send me an email!
-======================================
+
 Contact
-======================================
+=======
 Moddb: https://www.moddb.com/games/the-outforce
 Discord: https://discord.gg/7RbzqN9
 e-mail: krisztiankispeti1990@gmail.com
-======================================
+
 Special thanks to
-======================================
+==================
 Krisztian Kispeti for developing the program.
-And Watto for the *.box archive structure determina-
-tion.
-======================================
+And Watto for the *.box archive structure determination.
+
 *.box archive structure
-======================================
+=
 
 X - File Data
 
