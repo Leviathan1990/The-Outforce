@@ -1,0 +1,73 @@
+*.box archive extractor  V2.0 Console app.
+======================================
+*.box archive extractor.
+A "The Outforce" játékhoz
+======================================
+Changelog history:
+{V1.0}
++Néhány *.box fájl kinyerése
+---------------------------------------------------------
+{V2.0}
++Teljes támogatás a *.box archívumhoz
+Minden *.box fájl tartalma kinyerhető, mely megfelel a 
+fájlstruktúrának.
++Kisebb hibák javítása
+---------------------------------------------------------
+======================================
+Használat:
+======================================
+Először is tedd a *.box fált/fájlokat abba a mappába,
+ahol a program .exe fájlja is található, majd indítsd el a 
+programot...
+Írd be pontosan a *.box fájl nevét (név+kiterjesztés),
+majd nyomj egy entert. A program számozással meg fogja
+jeleníteni azokat a fájlokat, melyek az adott *.box fájlban
+vannak.
+
+Mindezek után írd be az "extract" szócskát, mely elkezdi
+ezután kinyerni a *.box fájl tartalmát.
+
+Nincs szükség sem mappák, almappák létrehozására,
+mivel a program automatikusan megcsinálja neked ezt a
+sok szart.
+======================================
+Ismert problémák.
+======================================
+Hibát találtál a program működésében? Ne habozz,
+írj nyugodtan egy emailt ezt illetően nekem!
+======================================
+Elérhetőség
+======================================
+Moddb: https://www.moddb.com/games/the-outforce
+Discord: https://discord.gg/7RbzqN9
+e-mail: krisztiankispeti1990@gmail.com
+======================================
+Különköszönet
+======================================
+Kispeti Krisztián Gergőnek a program megírásáért.
+Valamint Watto-nak a *.box fájl struktúrájának meg-
+határozásáért.
+======================================
+Felhasznált technológiák
+======================================
+Microsoft Visual Studio 2022 (C#)
+======================================
+A *.box fájl struktúrája
+======================================
+
+X - File Data
+
+// Directory
+  4 - Number Of Files
+
+  // for each file
+    X - Filename
+    1 - null Filename Terminator
+    4 - File offset
+    4 - File Size
+
+4 - Directory Offset
+
+Endiáni sorrend: Little Endian
+Tömörítés: -
+Encryption: -
